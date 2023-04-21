@@ -1,0 +1,33 @@
+body {
+  background-color: #f19fa8;
+  color: #2a2a63;
+}
+.work-experience {
+  flex-direction: column;
+}
+.margin-big {
+  margin: 20px 0;
+}
+.skills-svg svg {
+  margin: 0 10px;
+  align-self: self-start;
+}
+
+.icon {
+  font-size: 40px;
+  border: 2px solid #2a2a63;
+  border-radius: 10rem;
+  padding: 15px;
+}
+
+@media (min-width: 768px) {
+  .work-experience {
+    flex-direction: row;
+  }
+  .border-right {
+    border-right: 1px solid black;
+  }
+  .margin-big {
+    margin: 40px 0;
+  }
+}
